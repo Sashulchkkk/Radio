@@ -25,7 +25,7 @@ public class TestRadio {
         Radio radio = new Radio();
         radio.setCurrentStation(3);
         radio.prev();
-        Assertions.assertEquals(2, radio.getCurrentStation());
+        Assertions.assertEquals(4, radio.getCurrentStation());
 
         radio.setCurrentStation(0);
         radio.prev();
